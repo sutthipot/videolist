@@ -1,11 +1,14 @@
 # videolist
 
-## Developer Skill Test
+> Developer Skill Test
 
-## Coding language : nuxtjs
+## Coding language
+
+> nuxtjs
+
+## docker build
 
 ```bash
 # install dependencies
-$ yarn install
-
+docker build --tag <name>:<version> .
 ```
