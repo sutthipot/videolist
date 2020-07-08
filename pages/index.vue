@@ -24,13 +24,11 @@ export default {
     },
     data(){
         return{
-            id:0,
         }
     },
     methods:{
     },
     mounted(){
-        this.id = this.$route.params.id;
     },
     components:{
         playlist,
