@@ -6,9 +6,14 @@
 
 > nuxtjs
 
-## docker build
+## make docker image
 
 ```bash
-# install dependencies
 docker build --tag <name>:<version> .
+```
+
+## run docker container
+
+```bash
+docker run --name <container-name> -p 3000:3000 <image-name>:<version>
 ```
