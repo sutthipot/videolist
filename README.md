@@ -1,20 +1,19 @@
-# videowatch
+# videolist
 
-## Build Setup
+> Developer Skill Test
+
+## Coding language
+
+> nuxtjs
+
+## make docker image
 
 ```bash
-# install dependencies
-$ yarn install
-
-# serve with hot reload at localhost:3000
-$ yarn dev
-
-# build for production and launch server
-$ yarn build
-$ yarn start
-
-# generate static project
-$ yarn generate
+docker build --tag <name>:<version> .
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+## run docker container
+
+```bash
+docker run --name <container-name> -p 3000:3000 <image-name>:<version>
+```
