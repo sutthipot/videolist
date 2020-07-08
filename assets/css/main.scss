@@ -1,0 +1,55 @@
+@import 'style.scss';
+@import 'grid.scss';
+@import 'flex.scss';
+@import 'embed.scss';
+@font-face {
+    font-family: 'sukhumvit';
+    src: url('../fonts/sukhumvit/SukhumvitSet-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'sukhumvit';
+    src: url('../fonts/sukhumvit/SukhumvitSet-Light.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'sukhumvit';
+    src: url('../fonts/sukhumvit/SukhumvitSet-Text.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'sukhumvit';
+    src: url('../fonts/sukhumvit/SukhumvitSet-Medium.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'sukhumvit';
+    src: url('../fonts/sukhumvit/SukhumvitSet-SemiBold.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'sukhumvit';
+    src: url('../fonts/sukhumvit/SukhumvitSet-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  html {
+    font-family: 'sukhumvit', sans-serif !important;
+  
+    body {
+      font-family: 'sukhumvit', sans-serif !important;
+      background-color: #f9f9f9;
+    }
+
+}

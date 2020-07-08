@@ -1,0 +1,13 @@
+$i : 1;
+.d-flex {
+    display: flex;
+    align-items: stretch;
+    .flex-grow-#{$i}{
+        flex-grow: $i
+    }
+
+    .flex-shrink-#{$i}{
+        flex-shrink: $i
+    }
+    
+}
