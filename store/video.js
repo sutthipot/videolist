@@ -1,4 +1,4 @@
-const {apiUrl} = process.env
+//const {apiUrl} = process.env
 
 export const state = () => ({
     lists:[],
