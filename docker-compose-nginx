@@ -1,0 +1,15 @@
+version: "3.7"
+
+networks:
+    kong-net:
+        
+services:
+    #######################################
+    # proxy: reverseproxy
+    #######################################
+    nginx-proxy:
+        image: jwilder/nginx-proxy
+        ports:
+        - "80:80"
+        volumes:
+        - /var/run/docker.sock:/tmp/docker.sock:ro
