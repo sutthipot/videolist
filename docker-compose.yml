@@ -109,7 +109,9 @@ services:
       VIRTUAL_PORT: 1337
     depends_on:
       - ${KONG_PG_HOST:-kong-database}
-    ports:
+    #ports:
+    #  - 1337
+    expose:
       - 1337
 
 
