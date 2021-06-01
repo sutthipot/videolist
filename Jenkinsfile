@@ -16,7 +16,7 @@ pipeline {
         }
         stage('Run') {
             steps {
-                sh "docker run --name nestlab -p 3000:3000 videolist:${env.BUILD_ID}"
+                sh "docker run --name videolist -p 3000:3000 videolist:${env.BUILD_ID}"
             }
         }
     }
